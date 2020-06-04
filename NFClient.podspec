@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/nhatduong/NFClient.git", :tag => "#{s.version}"}
   s.framework = "UIKit"
   s.framework = "CoreLocation"
-  s.dependency 'SwiftyJSON',
-  s.dependency 'Alamofire',
-  s.dependency 'libjingle_peerconnection',
-  s.dependency 'SocketRocket',
-  s.dependency 'Socket.IO-Client-Swift',
+  s.dependency 'SwiftyJSON'
+  s.dependency 'Alamofire'
+  s.dependency 'libjingle_peerconnection'
+  s.dependency 'SocketRocket'
+  s.dependency 'Socket.IO-Client-Swift'
   s.source_files = "NFClient/**/*.{swift,h,m}"
   s.resources = "NFClient/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
