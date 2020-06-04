@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}", "NFClient/**/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -141,5 +141,7 @@ Pod::Spec.new do |spec|
   s.dependency 'SocketRocket', '~> 0.5.1'
   s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
   s.dependency 'Socket.IO-Client-Swift', '~> 3.1.1'
-  
+
+  s.resources = "NFClient/**/*.{png,jpeg,jpg,storyboard,xib}"
+
 end
