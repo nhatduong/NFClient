@@ -1,6 +1,6 @@
 platform :ios, "9.0"
 target 'NFClient' do
-  use_frameworks!
+#  use_frameworks!
   pod 'SwiftyJSON'
   pod 'libjingle_peerconnection'
   pod 'SocketRocket'
