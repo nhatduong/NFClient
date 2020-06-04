@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = "NFClient is network manager"
   s.requires_arc = true
   s.static_framework = true
-  s.version = "1.1.13"
+  s.version = "1.1.14"
   s.platform     = :ios, "9.0"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "NhatNguyen" => "nhatbg89@gmail.com" }
