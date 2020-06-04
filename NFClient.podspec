@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
   s.dependency 'Socket.IO-Client-Swift', '~> 3.1.1'
   s.source_files = "NFClient/**/*.{swift,h,m}"
-  s.resources = "NFClient/**/*.{png,jpeg,jpg,storyboard,xib}"
+  # s.resources = "NFClient/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
