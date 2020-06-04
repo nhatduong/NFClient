@@ -42,7 +42,7 @@
 		2AD75F121E52A8C600DEAFF8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F111E52A8C600DEAFF8 /* CFNetwork.framework */; };
 		2AD75F161E52A8E400DEAFF8 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F151E52A8E400DEAFF8 /* libicucore.tbd */; };
 		2AD75F181E52A8F200DEAFF8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F171E52A8F200DEAFF8 /* libc++.tbd */; };
-		B14294621B8F4581B0E3BF60 /* libPods-NFClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A90F4C9AE2AA8C6B8ED42546 /* libPods-NFClient.a */; };
+		95A713C8E8762E36F620BF72 /* libPods-NFClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F0B158B4796DCDB844272E /* libPods-NFClient.a */; };
 		D803921423CF757D00238877 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D803921323CF757D00238877 /* AudioTrack.swift */; };
 		D805A6DB241A8F0F003CB541 /* btn-mute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = D805A6C3241A8F0E003CB541 /* btn-mute-m.png */; };
 		D805A6DC241A8F0F003CB541 /* btn-mute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = D805A6C3241A8F0E003CB541 /* btn-mute-m.png */; };
@@ -161,9 +161,9 @@
 		2AD75F171E52A8F200DEAFF8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		38E201DB20256B2CEA6F7520 /* Pods-NFClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFClient.release.xcconfig"; path = "Target Support Files/Pods-NFClient/Pods-NFClient.release.xcconfig"; sourceTree = "<group>"; };
 		802D2D807B49C61F76488EC7 /* Pods-PeerClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeerClient.debug.xcconfig"; path = "Target Support Files/Pods-PeerClient/Pods-PeerClient.debug.xcconfig"; sourceTree = "<group>"; };
+		82F0B158B4796DCDB844272E /* libPods-NFClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCA4C9AAF9B4A83207F6F58 /* Pods_PeerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D57EC00F2820DA7EBE1778 /* Pods-PeerClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeerClient.release.xcconfig"; path = "Target Support Files/Pods-PeerClient/Pods-PeerClient.release.xcconfig"; sourceTree = "<group>"; };
-		A90F4C9AE2AA8C6B8ED42546 /* libPods-NFClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D541E1219F479D8204FCC5 /* Pods-NFClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFClient.debug.xcconfig"; path = "Target Support Files/Pods-NFClient/Pods-NFClient.debug.xcconfig"; sourceTree = "<group>"; };
 		D803921323CF757D00238877 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		D805A6C3241A8F0E003CB541 /* btn-mute-m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-mute-m.png"; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 				D8788AE42487E3630094FD20 /* QuartzCore.framework in Frameworks */,
 				D8A5255523CCD27800AE2463 /* libstdc++.6.tbd in Frameworks */,
 				D8788AE22487E35A0094FD20 /* Security.framework in Frameworks */,
-				B14294621B8F4581B0E3BF60 /* libPods-NFClient.a in Frameworks */,
+				95A713C8E8762E36F620BF72 /* libPods-NFClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +321,7 @@
 				2AD75EFD1E52A85200DEAFF8 /* QuartzCore.framework */,
 				2AD75EFB1E52A84800DEAFF8 /* libsqlite3.tbd */,
 				8BCA4C9AAF9B4A83207F6F58 /* Pods_PeerClient.framework */,
-				A90F4C9AE2AA8C6B8ED42546 /* libPods-NFClient.a */,
+				82F0B158B4796DCDB844272E /* libPods-NFClient.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
