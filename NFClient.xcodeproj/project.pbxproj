@@ -6,20 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		2AF6BFC21E5FD440002A2DC8 /* NFClient-Universal */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 2AF6BFC51E5FD440002A2DC8 /* Build configuration list for PBXAggregateTarget "NFClient-Universal" */;
-			buildPhases = (
-				2AF6BFC61E5FD453002A2DC8 /* Run Script */,
-			);
-			dependencies = (
-			);
-			name = "NFClient-Universal";
-			productName = "PeerClient-Universal";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		2A1E6CCA1E6FD1C900921925 /* RTCTypes+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E6CC91E6FD1C900921925 /* RTCTypes+String.swift */; };
 		2A4427C21E8E2E1600EAD129 /* MediaStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4427C11E8E2E1600EAD129 /* MediaStream.swift */; };
@@ -99,16 +85,12 @@
 		D831B12F247789A300F6A6B5 /* popupAnsewerCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D831B12E247789A300F6A6B5 /* popupAnsewerCall.swift */; };
 		D831B13124778A9800F6A6B5 /* NFPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D831B13024778A9800F6A6B5 /* NFPopup.swift */; };
 		D83242F52484F36500AB3C2C /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83242F42484F36500AB3C2C /* extension.swift */; };
-		D848BB8A242124030042C09B /* videokyc.cer in Resources */ = {isa = PBXBuildFile; fileRef = D848BB89242124030042C09B /* videokyc.cer */; };
-		D848BB8B242124030042C09B /* videokyc.cer in Resources */ = {isa = PBXBuildFile; fileRef = D848BB89242124030042C09B /* videokyc.cer */; };
 		D873B073247CF04F00E605A9 /* ProcessingLoading.xib in Resources */ = {isa = PBXBuildFile; fileRef = D873B072247CF04F00E605A9 /* ProcessingLoading.xib */; };
 		D873B075247CF0E700E605A9 /* ProcessingLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D873B074247CF0E700E605A9 /* ProcessingLoading.swift */; };
 		D873B077247CF78200E605A9 /* NFAIAnimationSpinnerDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = D873B076247CF78200E605A9 /* NFAIAnimationSpinnerDots.swift */; };
 		D8788AE22487E35A0094FD20 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F131E52A8D000DEAFF8 /* Security.framework */; };
 		D8788AE42487E3630094FD20 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75EFD1E52A85200DEAFF8 /* QuartzCore.framework */; };
 		D8A5255523CCD27800AE2463 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A5255423CCD27800AE2463 /* libstdc++.6.tbd */; };
-		D8CD25332464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */ = {isa = PBXBuildFile; fileRef = D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */; };
-		D8CD25342464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */ = {isa = PBXBuildFile; fileRef = D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */; };
 		D8CFBB232481F8C800EAFF60 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFBB222481F8C800EAFF60 /* AES.swift */; };
 		FE78810A923F965351149F6C /* Pods_NFClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018EBE1E63B41A6C0FEDD00A /* Pods_NFClient.framework */; };
 /* End PBXBuildFile section */
@@ -207,12 +189,10 @@
 		D831B12E247789A300F6A6B5 /* popupAnsewerCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupAnsewerCall.swift; sourceTree = "<group>"; };
 		D831B13024778A9800F6A6B5 /* NFPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFPopup.swift; sourceTree = "<group>"; };
 		D83242F42484F36500AB3C2C /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
-		D848BB89242124030042C09B /* videokyc.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = videokyc.cer; sourceTree = "<group>"; };
 		D873B072247CF04F00E605A9 /* ProcessingLoading.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProcessingLoading.xib; sourceTree = "<group>"; };
 		D873B074247CF0E700E605A9 /* ProcessingLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingLoading.swift; sourceTree = "<group>"; };
 		D873B076247CF78200E605A9 /* NFAIAnimationSpinnerDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFAIAnimationSpinnerDots.swift; sourceTree = "<group>"; };
 		D8A5255423CCD27800AE2463 /* libstdc++.6.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.tbd"; sourceTree = "<group>"; };
-		D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = gs.videokyc.vn.der; sourceTree = SOURCE_ROOT; };
 		D8CFBB222481F8C800EAFF60 /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -360,8 +340,6 @@
 		D805A6C4241A8F0E003CB541 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */,
-				D848BB89242124030042C09B /* videokyc.cer */,
 				D805A6C5241A8F0E003CB541 /* APIservice.swift */,
 			);
 			path = Services;
@@ -498,12 +476,6 @@
 						DevelopmentTeam = HMX9N4R4NJ;
 						ProvisioningStyle = Automatic;
 					};
-					2AF6BFC21E5FD440002A2DC8 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = P8MY5NMT9K;
-						LastSwiftMigration = 1130;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = 2AD75EB81E52A78D00DEAFF8 /* Build configuration list for PBXProject "NFClient" */;
@@ -521,7 +493,6 @@
 			targets = (
 				2AD75EBD1E52A78D00DEAFF8 /* NFClient */,
 				2AD75EC61E52A78D00DEAFF8 /* NFClientTests */,
-				2AF6BFC21E5FD440002A2DC8 /* NFClient-Universal */,
 			);
 		};
 /* End PBXProject section */
@@ -543,8 +514,6 @@
 				D873B073247CF04F00E605A9 /* ProcessingLoading.xib in Resources */,
 				D805A6FB241A8F0F003CB541 /* unbtn-mute.png in Resources */,
 				D805A6F7241A8F0F003CB541 /* Home.storyboard in Resources */,
-				D848BB8A242124030042C09B /* videokyc.cer in Resources */,
-				D8CD25332464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,28 +531,12 @@
 				D805A6DC241A8F0F003CB541 /* btn-mute-m.png in Resources */,
 				D805A6FC241A8F0F003CB541 /* unbtn-mute.png in Resources */,
 				D805A6F8241A8F0F003CB541 /* Home.storyboard in Resources */,
-				D848BB8B242124030042C09B /* videokyc.cer in Resources */,
-				D8CD25342464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2AF6BFC61E5FD453002A2DC8 /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n# Step 1. Build Device and Simulator versions. This also include the full bitcode generation of framework\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n";
-		};
 		CA6AEA4D45B6C6724C5D50B5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
@@ -743,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -791,7 +744,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -836,6 +789,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				MARKETING_VERSION = 1.1.16;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhatnguyen.peerClientFw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -883,6 +837,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				MARKETING_VERSION = 1.1.16;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhatnguyen.peerClientFw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -922,33 +877,6 @@
 			};
 			name = Release;
 		};
-		2AF6BFC31E5FD440002A2DC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = P8MY5NMT9K;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "-fembed-bitcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		2AF6BFC41E5FD440002A2DC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = P8MY5NMT9K;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "-fembed-bitcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -975,15 +903,6 @@
 			buildConfigurations = (
 				2AD75ED61E52A78D00DEAFF8 /* Debug */,
 				2AD75ED71E52A78D00DEAFF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2AF6BFC51E5FD440002A2DC8 /* Build configuration list for PBXAggregateTarget "NFClient-Universal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2AF6BFC31E5FD440002A2DC8 /* Debug */,
-				2AF6BFC41E5FD440002A2DC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
