@@ -1,0 +1,292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "8NFClient19VideoViewControllerC"
+provides-member:
+- ["8NFClient19VideoViewControllerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "CGSize"
+- "EAGLVideoView"
+- "EAGLVideoViewDelegate"
+- "VideoViewController"
+depends-member:
+- !private ["s7CVarArgP", "localVideoSize"]
+- !private ["s7CVarArgP", "localVideoView"]
+- !private ["s7CVarArgP", "remoteVideoSize"]
+- !private ["s7CVarArgP", "remoteVideoView"]
+- !private ["s7CVarArgP", "updateVideoViewLayout"]
+- ["s7CVarArgP", "videoView"]
+- !private ["s28CustomDebugStringConvertibleP", "localVideoSize"]
+- !private ["s28CustomDebugStringConvertibleP", "localVideoView"]
+- !private ["s28CustomDebugStringConvertibleP", "remoteVideoSize"]
+- !private ["s28CustomDebugStringConvertibleP", "remoteVideoView"]
+- !private ["s28CustomDebugStringConvertibleP", "updateVideoViewLayout"]
+- ["s28CustomDebugStringConvertibleP", "videoView"]
+- !private ["s23CustomStringConvertibleP", "localVideoSize"]
+- !private ["s23CustomStringConvertibleP", "localVideoView"]
+- !private ["s23CustomStringConvertibleP", "remoteVideoSize"]
+- !private ["s23CustomStringConvertibleP", "remoteVideoView"]
+- !private ["s23CustomStringConvertibleP", "updateVideoViewLayout"]
+- ["s23CustomStringConvertibleP", "videoView"]
+- !private ["8NFClient13EAGLVideoViewC", "deinit"]
+- ["8NFClient21EAGLVideoViewDelegateP", ""]
+- !private ["8NFClient21EAGLVideoViewDelegateP", "localVideoSize"]
+- !private ["8NFClient21EAGLVideoViewDelegateP", "localVideoView"]
+- !private ["8NFClient21EAGLVideoViewDelegateP", "remoteVideoSize"]
+- !private ["8NFClient21EAGLVideoViewDelegateP", "remoteVideoView"]
+- !private ["8NFClient21EAGLVideoViewDelegateP", "updateVideoViewLayout"]
+- ["8NFClient21EAGLVideoViewDelegateP", "videoView"]
+- !private ["SQ", "localVideoSize"]
+- !private ["SQ", "localVideoView"]
+- !private ["SQ", "remoteVideoSize"]
+- !private ["SQ", "remoteVideoView"]
+- !private ["SQ", "updateVideoViewLayout"]
+- ["SQ", "videoView"]
+- !private ["SH", "localVideoSize"]
+- !private ["SH", "localVideoView"]
+- !private ["SH", "remoteVideoSize"]
+- !private ["SH", "remoteVideoView"]
+- !private ["SH", "updateVideoViewLayout"]
+- ["SH", "videoView"]
+- !private ["So8NSCodingP", "localVideoSize"]
+- !private ["So8NSCodingP", "localVideoView"]
+- !private ["So8NSCodingP", "remoteVideoSize"]
+- !private ["So8NSCodingP", "remoteVideoView"]
+- !private ["So8NSCodingP", "updateVideoViewLayout"]
+- ["So8NSCodingP", "videoView"]
+- !private ["So26NSExtensionRequestHandlingP", "localVideoSize"]
+- !private ["So26NSExtensionRequestHandlingP", "localVideoView"]
+- !private ["So26NSExtensionRequestHandlingP", "remoteVideoSize"]
+- !private ["So26NSExtensionRequestHandlingP", "remoteVideoView"]
+- !private ["So26NSExtensionRequestHandlingP", "updateVideoViewLayout"]
+- ["So26NSExtensionRequestHandlingP", "videoView"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "EAGLVideoView"]
+- !private ["So8NSObjectC", "localVideoSize"]
+- !private ["So8NSObjectC", "localVideoView"]
+- !private ["So8NSObjectC", "remoteVideoSize"]
+- !private ["So8NSObjectC", "remoteVideoView"]
+- !private ["So8NSObjectC", "updateVideoViewLayout"]
+- ["So8NSObjectC", "videoView"]
+- !private ["So8NSObjectP", "localVideoSize"]
+- !private ["So8NSObjectP", "localVideoView"]
+- !private ["So8NSObjectP", "remoteVideoSize"]
+- !private ["So8NSObjectP", "remoteVideoView"]
+- !private ["So8NSObjectP", "updateVideoViewLayout"]
+- ["So8NSObjectP", "videoView"]
+- !private ["8NFClient12PeerDelegateP", "localVideoSize"]
+- !private ["8NFClient12PeerDelegateP", "localVideoView"]
+- !private ["8NFClient12PeerDelegateP", "remoteVideoSize"]
+- !private ["8NFClient12PeerDelegateP", "remoteVideoView"]
+- !private ["8NFClient12PeerDelegateP", "updateVideoViewLayout"]
+- ["8NFClient12PeerDelegateP", "videoView"]
+- !private ["So21UIAppearanceContainerP", "localVideoSize"]
+- !private ["So21UIAppearanceContainerP", "localVideoView"]
+- !private ["So21UIAppearanceContainerP", "remoteVideoSize"]
+- !private ["So21UIAppearanceContainerP", "remoteVideoView"]
+- !private ["So21UIAppearanceContainerP", "updateVideoViewLayout"]
+- ["So21UIAppearanceContainerP", "videoView"]
+- !private ["So18UIContentContainerP", "localVideoSize"]
+- !private ["So18UIContentContainerP", "localVideoView"]
+- !private ["So18UIContentContainerP", "remoteVideoSize"]
+- !private ["So18UIContentContainerP", "remoteVideoView"]
+- !private ["So18UIContentContainerP", "updateVideoViewLayout"]
+- ["So18UIContentContainerP", "videoView"]
+- !private ["So18UIFocusEnvironmentP", "localVideoSize"]
+- !private ["So18UIFocusEnvironmentP", "localVideoView"]
+- !private ["So18UIFocusEnvironmentP", "remoteVideoSize"]
+- !private ["So18UIFocusEnvironmentP", "remoteVideoView"]
+- !private ["So18UIFocusEnvironmentP", "updateVideoViewLayout"]
+- ["So18UIFocusEnvironmentP", "videoView"]
+- !private ["So30UIPasteConfigurationSupportingP", "localVideoSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "localVideoView"]
+- !private ["So30UIPasteConfigurationSupportingP", "remoteVideoSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "remoteVideoView"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateVideoViewLayout"]
+- ["So30UIPasteConfigurationSupportingP", "videoView"]
+- ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "EAGLVideoView"]
+- !private ["So11UIResponderC", "localVideoSize"]
+- !private ["So11UIResponderC", "localVideoView"]
+- !private ["So11UIResponderC", "remoteVideoSize"]
+- !private ["So11UIResponderC", "remoteVideoView"]
+- !private ["So11UIResponderC", "updateVideoViewLayout"]
+- ["So11UIResponderC", "videoView"]
+- !private ["So30UIResponderStandardEditActionsP", "localVideoSize"]
+- !private ["So30UIResponderStandardEditActionsP", "localVideoView"]
+- !private ["So30UIResponderStandardEditActionsP", "remoteVideoSize"]
+- !private ["So30UIResponderStandardEditActionsP", "remoteVideoView"]
+- !private ["So30UIResponderStandardEditActionsP", "updateVideoViewLayout"]
+- ["So30UIResponderStandardEditActionsP", "videoView"]
+- !private ["So16UIStateRestoringP", "localVideoSize"]
+- !private ["So16UIStateRestoringP", "localVideoView"]
+- !private ["So16UIStateRestoringP", "remoteVideoSize"]
+- !private ["So16UIStateRestoringP", "remoteVideoView"]
+- !private ["So16UIStateRestoringP", "updateVideoViewLayout"]
+- ["So16UIStateRestoringP", "videoView"]
+- !private ["So18UITraitEnvironmentP", "localVideoSize"]
+- !private ["So18UITraitEnvironmentP", "localVideoView"]
+- !private ["So18UITraitEnvironmentP", "remoteVideoSize"]
+- !private ["So18UITraitEnvironmentP", "remoteVideoView"]
+- !private ["So18UITraitEnvironmentP", "updateVideoViewLayout"]
+- ["So18UITraitEnvironmentP", "videoView"]
+- !private ["So23UIUserActivityRestoringP", "localVideoSize"]
+- !private ["So23UIUserActivityRestoringP", "localVideoView"]
+- !private ["So23UIUserActivityRestoringP", "remoteVideoSize"]
+- !private ["So23UIUserActivityRestoringP", "remoteVideoView"]
+- !private ["So23UIUserActivityRestoringP", "updateVideoViewLayout"]
+- ["So23UIUserActivityRestoringP", "videoView"]
+- ["So16UIViewControllerC", "CGSize"]
+- ["So16UIViewControllerC", "EAGLVideoView"]
+- !private ["So16UIViewControllerC", "localVideoSize"]
+- !private ["So16UIViewControllerC", "localVideoView"]
+- !private ["So16UIViewControllerC", "remoteVideoSize"]
+- !private ["So16UIViewControllerC", "remoteVideoView"]
+- !private ["So16UIViewControllerC", "updateVideoViewLayout"]
+- ["So16UIViewControllerC", "videoView"]
+- ["8NFClient19VideoViewControllerC", "CGSize"]
+- ["8NFClient19VideoViewControllerC", "EAGLVideoView"]
+- ["8NFClient19VideoViewControllerC", "deinit"]
+- !private ["8NFClient19VideoViewControllerC", "localVideoSize"]
+- !private ["8NFClient19VideoViewControllerC", "localVideoView"]
+- !private ["8NFClient19VideoViewControllerC", "remoteVideoSize"]
+- !private ["8NFClient19VideoViewControllerC", "remoteVideoView"]
+- !private ["8NFClient19VideoViewControllerC", "updateVideoViewLayout"]
+- ["8NFClient19VideoViewControllerC", "videoView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localVideoSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localVideoView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "remoteVideoSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "remoteVideoView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateVideoViewLayout"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "videoView"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "8NFClient13EAGLVideoViewC"
+- "8NFClient21EAGLVideoViewDelegateP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "8NFClient12PeerDelegateP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "8NFClient19VideoViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ModelIO.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/GLKit.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/i386.swiftmodule"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SocketRocket-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionInterface.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAudioSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCI420Frame.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCICECandidate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCSessionDescriptionDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCStatsDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaStreamTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAudioTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCDataChannel.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaStream.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnection.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCSessionDescription.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoRenderer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCOpenGLVideoRenderer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoCapturer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCICEServer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPair.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCTypes.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaConstraints.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SocketRocket.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SRWebSocket.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCStatsReport.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCEAGLVideoView.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionFactory.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "915ae3e678d640237e79bb0afeaa703d"
