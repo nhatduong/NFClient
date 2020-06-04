@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version = "1.0.1"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "NhatNguyen" => "nhatbg89@gmail.com" }
-  s.homepage = "note3"
+  s.homepage = "https://github.com/nhatduong/NFClient"
   s.source = { :git => "https://github.com/nhatduong/NFClient.git", :tag => "#{s.version}"}
   s.framework = "UIKit"
   s.framework = "CFNetwork"
