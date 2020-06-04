@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '8.0'
-  s.name = "FRNetwork"
-  s.summary = "FRNetwork is network manager"
+  s.name = "NFClient"
+  s.summary = "NFClient is network manager"
   s.requires_arc = true
   s.version = "1.0"
   s.license = { :type => "MIT", :file => "LICENSE" }
