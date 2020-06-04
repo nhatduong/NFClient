@@ -16,18 +16,18 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NFClient"
-  spec.version      = "1.1.1"
-  spec.summary      = "A short description of NFClient."
+  spec.version      = "1.1.6"
+  spec.summary      = "NFClient is CV"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  # spec.description  = <<-DESC
+                  #  DESC
 
-  spec.homepage     = "http://EXAMPLE/NFClient"
+  spec.homepage     = "https://github.com/nhatduong/NFClient"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +38,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -67,7 +67,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "9.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}", "NFClient/**/*.{swift}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}", "NFClient/**/*.{swift,h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -134,13 +134,13 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
-  s.framework = "UIKit", "CFNetwork", "CoreGraphics", "GLKit", "OpenGLES", "QuartzCore", "Security"
-  s.dependency 'SwiftyJSON', '~> 5.0.0'
-  s.dependency 'Alamofire', '~> 4.9.1'
-  s.dependency 'libjingle_peerconnection', '~> 11177.2.0'
-  s.dependency 'SocketRocket', '~> 0.5.1'
-  s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
-  s.dependency 'Socket.IO-Client-Swift', '~> 3.1.1'
-  s.resources = "NFClient/**/*.{png,jpeg,jpg,storyboard,xib}"
+  spec.framework = "UIKit", "CFNetwork", "CoreGraphics", "GLKit", "OpenGLES", "QuartzCore", "Security"
+  spec.dependency 'SwiftyJSON', '~> 5.0.0'
+  spec.dependency 'Alamofire', '~> 4.9.1'
+  spec.dependency 'libjingle_peerconnection', '~> 11177.2.0'
+  spec.dependency 'SocketRocket', '~> 0.5.1'
+  spec.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
+  spec.dependency 'Socket.IO-Client-Swift', '~> 3.1.1'
+  spec.resources = "NFClient/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 end
