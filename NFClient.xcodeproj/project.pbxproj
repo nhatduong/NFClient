@@ -821,6 +821,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
+					"\"$CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"\"$CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$CONFIGURATION_BUILD_DIR/SocketRocket\"",
+					"\"$CONFIGURATION_BUILD_DIR/Starscream\"",
+					"\"$CONFIGURATION_BUILD_DIR/libjingle_peerconnection\"",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PeerClient/Info.plist;
@@ -863,6 +868,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
+					"\"$CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"\"$CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$CONFIGURATION_BUILD_DIR/SocketRocket\"",
+					"\"$CONFIGURATION_BUILD_DIR/Starscream\"",
+					"\"$CONFIGURATION_BUILD_DIR/libjingle_peerconnection\"",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PeerClient/Info.plist;
