@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = "NFClient is network manager"
   s.requires_arc = true
   s.static_framework = true
-  s.version = "1.1.9"
+  s.version = "1.1.10"
   s.platform     = :ios, "9.0"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "NhatNguyen" => "nhatbg89@gmail.com" }
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.dependency 'libjingle_peerconnection'
   s.dependency 'SocketRocket', '~> 0.5.1'
   s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
-  s.dependency 'Socket.IO-Client-Swift', '~> 3.1.1'
+  s.dependency 'Starscream', '~> 3.1.1'
   s.source_files = "NFClient/**/*.{swift,h,m}"
   s.resources = "NFClient/**/*.{png,jpeg,jpg,storyboard,xib}"
 
