@@ -56,7 +56,6 @@
 		2AD75F121E52A8C600DEAFF8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F111E52A8C600DEAFF8 /* CFNetwork.framework */; };
 		2AD75F161E52A8E400DEAFF8 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F151E52A8E400DEAFF8 /* libicucore.tbd */; };
 		2AD75F181E52A8F200DEAFF8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F171E52A8F200DEAFF8 /* libc++.tbd */; };
-		BE723012A54ADA233D13F986 /* Pods_NFClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511B04F4FC95CE95194ED369 /* Pods_NFClient.framework */; };
 		D803921423CF757D00238877 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D803921323CF757D00238877 /* AudioTrack.swift */; };
 		D805A6DB241A8F0F003CB541 /* btn-mute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = D805A6C3241A8F0E003CB541 /* btn-mute-m.png */; };
 		D805A6DC241A8F0F003CB541 /* btn-mute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = D805A6C3241A8F0E003CB541 /* btn-mute-m.png */; };
@@ -111,6 +110,7 @@
 		D8CD25332464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */ = {isa = PBXBuildFile; fileRef = D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */; };
 		D8CD25342464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */ = {isa = PBXBuildFile; fileRef = D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */; };
 		D8CFBB232481F8C800EAFF60 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFBB222481F8C800EAFF60 /* AES.swift */; };
+		FE78810A923F965351149F6C /* Pods_NFClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018EBE1E63B41A6C0FEDD00A /* Pods_NFClient.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +137,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		018EBE1E63B41A6C0FEDD00A /* Pods_NFClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1E6CC91E6FD1C900921925 /* RTCTypes+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RTCTypes+String.swift"; sourceTree = "<group>"; };
 		2A4427C11E8E2E1600EAD129 /* MediaStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaStream.swift; sourceTree = "<group>"; };
 		2A5E8DB21EB074BF00A33AEC /* PeerIceServerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerIceServerOptions.swift; sourceTree = "<group>"; };
@@ -178,7 +179,6 @@
 		2AD75F151E52A8E400DEAFF8 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		2AD75F171E52A8F200DEAFF8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		38E201DB20256B2CEA6F7520 /* Pods-NFClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFClient.release.xcconfig"; path = "Target Support Files/Pods-NFClient/Pods-NFClient.release.xcconfig"; sourceTree = "<group>"; };
-		511B04F4FC95CE95194ED369 /* Pods_NFClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		802D2D807B49C61F76488EC7 /* Pods-PeerClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeerClient.debug.xcconfig"; path = "Target Support Files/Pods-PeerClient/Pods-PeerClient.debug.xcconfig"; sourceTree = "<group>"; };
 		8BCA4C9AAF9B4A83207F6F58 /* Pods_PeerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D57EC00F2820DA7EBE1778 /* Pods-PeerClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeerClient.release.xcconfig"; path = "Target Support Files/Pods-PeerClient/Pods-PeerClient.release.xcconfig"; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 				D8788AE42487E3630094FD20 /* QuartzCore.framework in Frameworks */,
 				D8A5255523CCD27800AE2463 /* libstdc++.6.tbd in Frameworks */,
 				D8788AE22487E35A0094FD20 /* Security.framework in Frameworks */,
-				BE723012A54ADA233D13F986 /* Pods_NFClient.framework in Frameworks */,
+				FE78810A923F965351149F6C /* Pods_NFClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +341,7 @@
 				2AD75EFD1E52A85200DEAFF8 /* QuartzCore.framework */,
 				2AD75EFB1E52A84800DEAFF8 /* libsqlite3.tbd */,
 				8BCA4C9AAF9B4A83207F6F58 /* Pods_PeerClient.framework */,
-				511B04F4FC95CE95194ED369 /* Pods_NFClient.framework */,
+				018EBE1E63B41A6C0FEDD00A /* Pods_NFClient.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -821,7 +821,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/../Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PeerClient/Info.plist;
@@ -864,7 +863,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/../Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PeerClient/Info.plist;

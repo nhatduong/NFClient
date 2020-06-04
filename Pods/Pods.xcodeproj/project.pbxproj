@@ -37,7 +37,6 @@
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA86B65377ED9AEA0D2655106BA9BD8 /* SessionDelegate.swift */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9DFB54732989C2C2A6081E0D461BC /* NetworkReachabilityManager.swift */; };
 		381BE29DEBEB41011344BC4E14FE10D5 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A650C1227434129D1B64E4B990961B04 /* SocketExtensions.swift */; };
-		39146C908693080E315951405F1D0FE3 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 110FE803A2B1541D96F05D11BCA8039F /* SRWebSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		464450D037D17ED5EE2322E180A6A9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749BEBE3EDFAE31781C468104E6DD0FC /* Foundation.framework */; };
 		47FC02B31F206221DABD438FCCA1CBE5 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784DF98E183E35BFC0078C147F149C4 /* SocketEngine.swift */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99373D3BB5307ABDCC40ACDBB7E1D8C4 /* Validation.swift */; };
@@ -46,6 +45,8 @@
 		64166866E94E742E896D85748BDD4869 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0A1134A71EF93E98FB7ACC78BF592 /* SocketAnyEvent.swift */; };
 		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53A853EAD56EA01FD4A9795C80843F /* Result.swift */; };
 		69A61F7206266FD3D4295CCBD56B46DF /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431A4F12A6A2A6CBAB06D8FDE9DD2522 /* SocketEngineWebsocket.swift */; };
+		735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14463C1D04FE651337390F0EE9950BDD /* SocketRocket-dummy.m */; };
+		73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 110FE803A2B1541D96F05D11BCA8039F /* SRWebSocket.m */; };
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749BEBE3EDFAE31781C468104E6DD0FC /* Foundation.framework */; };
 		778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D279F73CCF6016F3E8E7A1A1C792B4F /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B067AF38703B810487806389036370D /* SwiftyJSON.swift */; };
@@ -76,7 +77,6 @@
 		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BEDFEE268B902F5636B8B5573E8954 /* DispatchQueue+Alamofire.swift */; };
 		D516A371E962F108E3213FB99557C2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749BEBE3EDFAE31781C468104E6DD0FC /* Foundation.framework */; };
 		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789E5F271199F63656C04FF392DCD6E1 /* Response.swift */; };
-		D8F3E1B95DA4A2087B658D31311C9B3E /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14463C1D04FE651337390F0EE9950BDD /* SocketRocket-dummy.m */; };
 		DEC18FE6886DB18A2F1CB50EDE3C650B /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE68BED1689D7BDE4268B8441E93140 /* SocketLogger.swift */; };
 		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81934AFFD5569895510615DC67A942EB /* ResponseSerialization.swift */; };
 		E41E47A76BB5E6AC2B3241AF18EA5556 /* SocketRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA86DD2A09A7BDF20A477F048FF369 /* SocketRawView.swift */; };
@@ -696,7 +696,7 @@
 			buildConfigurationList = 7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
 			buildPhases = (
 				17BA34119E6FD4CDB922FEF45E0884DA /* Headers */,
-				D45D703CF7D740F1A044E21F18B1EAF1 /* Sources */,
+				DB50286F169C0450B2990CE14479F856 /* Sources */,
 				56AC35E789C811CE09501582CCA2174A /* Frameworks */,
 				A6620E44D4248429BD059BDB7FBF21F9 /* Resources */,
 			);
@@ -972,12 +972,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D45D703CF7D740F1A044E21F18B1EAF1 /* Sources */ = {
+		DB50286F169C0450B2990CE14479F856 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F3E1B95DA4A2087B658D31311C9B3E /* SocketRocket-dummy.m in Sources */,
-				39146C908693080E315951405F1D0FE3 /* SRWebSocket.m in Sources */,
+				735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */,
+				73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
