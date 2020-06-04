@@ -1,6 +1,0 @@
-module Pods_NFClient {
-  umbrella header "Pods-NFClient-umbrella.h"
-
-  export *
-  module * { export * }
-}
