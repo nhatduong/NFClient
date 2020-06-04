@@ -1,6 +1,0 @@
-framework module libjingle_peerconnection {
-  umbrella header "libjingle_peerconnection.h"
-
-  export *
-  module * { export * }
-}
