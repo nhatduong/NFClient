@@ -1,6 +1,6 @@
+inhibit_all_warnings!
+use_frameworks!
 target 'NFClient' do
-  
-  use_frameworks!
 
   pod 'SwiftyJSON'
   pod 'libjingle_peerconnection'
