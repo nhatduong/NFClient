@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="popupAnsewerCall" customModule="NFClient" customModuleProvider="target">
+            <connections>
+                <outlet property="acceptCall" destination="pBQ-za-wAS" id="rjG-DR-8Uz"/>
+                <outlet property="avatarCaller" destination="XQ9-S2-dBq" id="tnn-pZ-1MA"/>
+                <outlet property="bgPopup" destination="fPw-oc-rH6" id="f8Y-XU-fh6"/>
+                <outlet property="denyCall" destination="XGo-jY-g3y" id="9KC-9K-CtN"/>
+                <outlet property="view" destination="jMa-sa-kru" id="kYw-qy-yPE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jMa-sa-kru">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPw-oc-rH6">
+                    <rect key="frame" x="40" y="3" width="295" height="294"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cuộc gọi đến" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mB-xc-y2u">
+                            <rect key="frame" x="16" y="117" width="263" height="26.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cuộc gọi video theo yêu cầu phát biểu trực tiếp của bạn" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJL-8M-O3Q">
+                            <rect key="frame" x="16" y="151.5" width="263" height="40"/>
+                            <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBQ-za-wAS">
+                            <rect key="frame" x="24" y="226" width="122" height="44"/>
+                            <color key="backgroundColor" red="0.33436492089999997" green="0.6737305522" blue="0.40777972340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="9Bs-QN-RvJ"/>
+                                <constraint firstAttribute="width" constant="122" id="Y3X-1O-x1j"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Chấp nhận"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGo-jY-g3y">
+                            <rect key="frame" x="156" y="226" width="115" height="44"/>
+                            <color key="backgroundColor" red="0.85681289429999996" green="0.38065391780000002" blue="0.36464005710000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="115" id="A9e-4L-G6U"/>
+                                <constraint firstAttribute="height" constant="44" id="Fke-1i-uf0"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Từ chối"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="XGo-jY-g3y" secondAttribute="bottom" constant="24" id="BEb-mR-2g5"/>
+                        <constraint firstItem="4mB-xc-y2u" firstAttribute="leading" secondItem="fPw-oc-rH6" secondAttribute="leading" constant="16" id="Co0-rS-FUi"/>
+                        <constraint firstItem="KJL-8M-O3Q" firstAttribute="centerX" secondItem="fPw-oc-rH6" secondAttribute="centerX" id="H6H-eE-Vgq"/>
+                        <constraint firstItem="KJL-8M-O3Q" firstAttribute="top" secondItem="4mB-xc-y2u" secondAttribute="bottom" constant="8" id="NkI-rk-xsk"/>
+                        <constraint firstAttribute="trailing" secondItem="KJL-8M-O3Q" secondAttribute="trailing" constant="16" id="P0q-47-8e7"/>
+                        <constraint firstItem="4mB-xc-y2u" firstAttribute="centerX" secondItem="fPw-oc-rH6" secondAttribute="centerX" id="YiT-WH-u9d"/>
+                        <constraint firstAttribute="trailing" secondItem="XGo-jY-g3y" secondAttribute="trailing" constant="24" id="aBf-wD-GAj"/>
+                        <constraint firstItem="pBQ-za-wAS" firstAttribute="leading" secondItem="fPw-oc-rH6" secondAttribute="leading" constant="24" id="fe5-QX-7vq"/>
+                        <constraint firstAttribute="width" constant="295" id="gKb-o1-Gwp"/>
+                        <constraint firstAttribute="bottom" secondItem="pBQ-za-wAS" secondAttribute="bottom" constant="24" id="h9r-8i-IfN"/>
+                        <constraint firstItem="KJL-8M-O3Q" firstAttribute="leading" secondItem="fPw-oc-rH6" secondAttribute="leading" constant="16" id="ldj-Bt-9IK"/>
+                        <constraint firstAttribute="height" constant="294" id="tiC-GK-YXb"/>
+                        <constraint firstAttribute="trailing" secondItem="4mB-xc-y2u" secondAttribute="trailing" constant="16" id="w9K-O1-vZU"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="XQ9-S2-dBq">
+                    <rect key="frame" x="151.5" y="32" width="72" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="IRi-qj-PC1"/>
+                        <constraint firstAttribute="width" constant="72" id="wBV-Ws-Iwx"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fPw-oc-rH6" firstAttribute="centerX" secondItem="jMa-sa-kru" secondAttribute="centerX" id="3ys-oU-Lob"/>
+                <constraint firstItem="XQ9-S2-dBq" firstAttribute="top" secondItem="jMa-sa-kru" secondAttribute="top" constant="32" id="7gU-Qz-P3V"/>
+                <constraint firstItem="XQ9-S2-dBq" firstAttribute="centerX" secondItem="jMa-sa-kru" secondAttribute="centerX" id="UaR-L1-CVM"/>
+                <constraint firstItem="fPw-oc-rH6" firstAttribute="centerY" secondItem="jMa-sa-kru" secondAttribute="centerY" id="cpQ-9T-irC"/>
+                <constraint firstItem="4mB-xc-y2u" firstAttribute="top" secondItem="XQ9-S2-dBq" secondAttribute="bottom" constant="16" id="lIH-aU-uuS"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-117" y="68"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar" width="640" height="361"/>
+    </resources>
+</document>
