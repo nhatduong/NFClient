@@ -8,7 +8,7 @@
 
 import Foundation
 //import SRWebSocket
-import SocketRocket
+//import SocketRocket
 
 protocol PeerSocketDelegate {
     func webSocket(webSocket: PeerSocket, didReceiveMessage message: [String: Any]?)

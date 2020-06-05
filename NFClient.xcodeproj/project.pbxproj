@@ -58,6 +58,7 @@
 		2AD75F181E52A8F200DEAFF8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F171E52A8F200DEAFF8 /* libc++.tbd */; };
 		D271962CE7F00497E26BB041 /* libPods-NFClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC999FB20E5AC5AE454ECD8D /* libPods-NFClient.a */; };
 		D803921423CF757D00238877 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D803921323CF757D00238877 /* AudioTrack.swift */; };
+		D804B444248A434A00906F90 /* libSocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D804B443248A434A00906F90 /* libSocketRocket.a */; };
 		D805A6DB241A8F0F003CB541 /* btn-mute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = D805A6C3241A8F0E003CB541 /* btn-mute-m.png */; };
 		D805A6DC241A8F0F003CB541 /* btn-mute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = D805A6C3241A8F0E003CB541 /* btn-mute-m.png */; };
 		D805A6DD241A8F0F003CB541 /* APIservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D805A6C5241A8F0E003CB541 /* APIservice.swift */; };
@@ -183,6 +184,7 @@
 		A1D57EC00F2820DA7EBE1778 /* Pods-PeerClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeerClient.release.xcconfig"; path = "Target Support Files/Pods-PeerClient/Pods-PeerClient.release.xcconfig"; sourceTree = "<group>"; };
 		A9D541E1219F479D8204FCC5 /* Pods-NFClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFClient.debug.xcconfig"; path = "Target Support Files/Pods-NFClient/Pods-NFClient.debug.xcconfig"; sourceTree = "<group>"; };
 		D803921323CF757D00238877 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		D804B443248A434A00906F90 /* libSocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocketRocket.a; sourceTree = "<group>"; };
 		D805A6C3241A8F0E003CB541 /* btn-mute-m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-mute-m.png"; sourceTree = "<group>"; };
 		D805A6C5241A8F0E003CB541 /* APIservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIservice.swift; sourceTree = "<group>"; };
 		D805A6C6241A8F0E003CB541 /* VideoViewController+EAGLVideoViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VideoViewController+EAGLVideoViewDelegate.swift"; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				2AD75F001E52A85D00DEAFF8 /* OpenGLES.framework in Frameworks */,
 				2AD75F101E52A8BB00DEAFF8 /* GLKit.framework in Frameworks */,
 				2AD75EFC1E52A84800DEAFF8 /* libsqlite3.tbd in Frameworks */,
+				D804B444248A434A00906F90 /* libSocketRocket.a in Frameworks */,
 				2AD75F121E52A8C600DEAFF8 /* CFNetwork.framework in Frameworks */,
 				2AD75F161E52A8E400DEAFF8 /* libicucore.tbd in Frameworks */,
 				2AD75F181E52A8F200DEAFF8 /* libc++.tbd in Frameworks */,
@@ -330,6 +333,7 @@
 		2AD75EF81E52A83700DEAFF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D804B443248A434A00906F90 /* libSocketRocket.a */,
 				2AD75F171E52A8F200DEAFF8 /* libc++.tbd */,
 				2AD75F151E52A8E400DEAFF8 /* libicucore.tbd */,
 				2AD75F131E52A8D000DEAFF8 /* Security.framework */,
