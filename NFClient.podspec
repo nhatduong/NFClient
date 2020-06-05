@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary = "NFClient is network manager"
   s.requires_arc = true
   s.static_framework = true
-  s.version = "1.1.34"
+  s.version = "1.2.36"
   s.platform     = :ios, "9.0"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "NhatNguyen" => "nhatbg89@gmail.com" }
@@ -19,8 +19,9 @@ Pod::Spec.new do |s|
   s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
   s.dependency 'Starscream', '~> 3.1.1'
   s.swift_version = '5.1.3'
-  #s.source_files  = "Classes", "Classes/**/*.{swift,h,m}"
-  #s.exclude_files = "Classes/Exclude"
+  # s.source_files  = "NFClient/**/*.{*}"
+  s.resources = "Videocall/**/*.{png,jpeg,jpg,storyboard,xib}", "PeerClient/**/*.{png,jpeg,jpg,storyboard,xib}"
+  # s.exclude_files = "Classes/Exclude"
   # s.source_files = "PeerClient/Peer/*.{swift,h,m}"
   #s.resources = "FRNetwork/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
