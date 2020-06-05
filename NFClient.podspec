@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
   s.dependency 'Starscream', '~> 3.1.1'
   s.swift_version = '5.1.3'
-  s.source_files  = "Classes", "Classes/**/*.{swift,h,m}"
-  s.exclude_files = "Classes/Exclude"
+  #s.source_files  = "Classes", "Classes/**/*.{swift,h,m}"
+  #s.exclude_files = "Classes/Exclude"
   # s.source_files = "PeerClient/Peer/*.{swift,h,m}"
   #s.resources = "FRNetwork/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
