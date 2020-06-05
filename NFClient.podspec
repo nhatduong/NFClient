@@ -1,5 +1,4 @@
 Pod::Spec.new do |s|
-
   s.ios.deployment_target = '9.0'
   s.name = "NFClient"
   s.summary = "NFClient is network manager"
@@ -24,4 +23,5 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
   # s.source_files = "PeerClient/Peer/*.{swift,h,m}"
   #s.resources = "FRNetwork/**/*.{png,jpeg,jpg,storyboard,xib}"
+
 end
