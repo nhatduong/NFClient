@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wp3-E5-Fnz">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Video View Controller-->
+        <scene sceneID="iRS-TO-yiS">
+            <objects>
+                <viewController storyboardIdentifier="VideoCallID" id="wp3-E5-Fnz" customClass="VideoViewController" customModule="NFClient" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dVM-Lr-p0Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="PgP-eo-tai"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Vj-Eq-0kb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NEA-Aw-rgV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="call-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="1WU-AS-Vv6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbb-61-qaq">
+                                <rect key="frame" x="62" y="343" width="196" height="170"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRr-Is-BQG">
+                                        <rect key="frame" x="115" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="btn-cam-switch.png">
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changecamera:" destination="wp3-E5-Fnz" eventType="touchUpInside" id="x7n-lM-r1d"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypT-yC-JuU">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="btn-mute-m.png">
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="muteAudo:" destination="wp3-E5-Fnz" eventType="touchUpInside" id="FSH-V4-qFE"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1c-GO-Iey">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="btn-unmute.png">
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="muteAudo:" destination="wp3-E5-Fnz" eventType="touchUpInside" id="CtN-GH-LfU"/>
+                                            <action selector="unmuteAudio:" destination="wp3-E5-Fnz" eventType="touchUpInside" id="976-6x-w7m"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zq-4b-Yfa">
+                                        <rect key="frame" x="58" y="97" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" backgroundImage="btn-end-call-m.png">
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="endcall:" destination="wp3-E5-Fnz" eventType="touchUpInside" id="A8Q-M2-0m9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="160" id="64X-4t-6XZ"/>
+                                    <constraint firstAttribute="height" constant="170" id="Cov-gV-oxw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="piU-Eb-qo9"/>
+                                    <constraint firstAttribute="width" constant="196" id="ru8-go-8nm"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uit-nO-jgH">
+                                <rect key="frame" x="204" y="16" width="100" height="140"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="I7d-4i-T91"/>
+                                    <constraint firstAttribute="height" constant="140" id="JQS-3c-1xQ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CSKH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDM-QM-8pu">
+                                <rect key="frame" x="24" y="24" width="53.5" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="MxX-Rv-Xq2"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="kuD-E4-tSP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Đang kết nối..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQf-t7-IKa">
+                                <rect key="frame" x="24" y="53" width="104.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Saj-Ek-1Bc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="je1-XM-Nsc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VDM-QM-8pu" firstAttribute="leading" secondItem="8Vj-Eq-0kb" secondAttribute="leading" constant="24" id="Asz-a1-6XU"/>
+                            <constraint firstItem="qbb-61-qaq" firstAttribute="centerX" secondItem="8Vj-Eq-0kb" secondAttribute="centerX" id="I02-UK-eTt"/>
+                            <constraint firstItem="NQf-t7-IKa" firstAttribute="top" secondItem="VDM-QM-8pu" secondAttribute="bottom" constant="4" id="IfJ-Na-8a5"/>
+                            <constraint firstAttribute="bottom" secondItem="NEA-Aw-rgV" secondAttribute="bottom" id="L2F-yQ-S1U"/>
+                            <constraint firstItem="Uit-nO-jgH" firstAttribute="top" secondItem="dVM-Lr-p0Q" secondAttribute="bottom" constant="16" id="S3C-RX-eKa"/>
+                            <constraint firstAttribute="trailing" secondItem="Uit-nO-jgH" secondAttribute="trailing" constant="16" id="URX-ii-ouQ"/>
+                            <constraint firstItem="NEA-Aw-rgV" firstAttribute="top" secondItem="8Vj-Eq-0kb" secondAttribute="top" id="ZYv-1I-e8w"/>
+                            <constraint firstItem="NEA-Aw-rgV" firstAttribute="leading" secondItem="8Vj-Eq-0kb" secondAttribute="leading" id="g17-Ou-K8R"/>
+                            <constraint firstAttribute="trailing" secondItem="NEA-Aw-rgV" secondAttribute="trailing" id="ie5-wQ-SMK"/>
+                            <constraint firstItem="PgP-eo-tai" firstAttribute="top" secondItem="qbb-61-qaq" secondAttribute="bottom" constant="55" id="tcL-3t-4cs"/>
+                            <constraint firstItem="VDM-QM-8pu" firstAttribute="top" secondItem="dVM-Lr-p0Q" secondAttribute="bottom" constant="24" id="ugb-Gp-xLl"/>
+                            <constraint firstItem="NQf-t7-IKa" firstAttribute="leading" secondItem="VDM-QM-8pu" secondAttribute="leading" id="vxf-d3-zg9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="controlView" destination="qbb-61-qaq" id="wz8-xj-B9L"/>
+                        <outlet property="image_wait" destination="1WU-AS-Vv6" id="qln-xH-pUB"/>
+                        <outlet property="lableNameCallcenter" destination="VDM-QM-8pu" id="RHj-9m-ojg"/>
+                        <outlet property="localVideoContainerView" destination="Uit-nO-jgH" id="bQX-pV-yre"/>
+                        <outlet property="mute_audio_button" destination="ypT-yC-JuU" id="06a-7v-cqI"/>
+                        <outlet property="remoteVideoContainerView" destination="NEA-Aw-rgV" id="Ytu-LO-YDt"/>
+                        <outlet property="statusCall" destination="NQf-t7-IKa" id="eSW-7T-YBq"/>
+                        <outlet property="unmute_audio_button" destination="t1c-GO-Iey" id="SA0-Vp-HZP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybg-4V-6tC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710.625" y="-263.02816901408448"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn-cam-switch.png" width="160" height="160"/>
+        <image name="btn-end-call-m.png" width="160" height="160"/>
+        <image name="btn-mute-m.png" width="160" height="160"/>
+        <image name="btn-unmute.png" width="160" height="160"/>
+        <image name="call-bg.png" width="750" height="1334"/>
+    </resources>
+</document>

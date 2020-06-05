@@ -1,0 +1,4 @@
+framework module NFClient {
+  header "NFClient-Swift.h"
+  requires objc
+}

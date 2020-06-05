@@ -1,0 +1,328 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CreateSdpCompletionBlock"
+- "SetSdpCompletionBlock"
+- "SdpDispatcherError"
+- "SdpDispatcher"
+provides-nominal:
+- "8NFClient18SdpDispatcherErrorO"
+- "8NFClient13SdpDispatcherC"
+provides-member:
+- ["8NFClient18SdpDispatcherErrorO", ""]
+- ["8NFClient13SdpDispatcherC", ""]
+provides-dynamic-lookup:
+- "peerConnection"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "CreateSdpCompletionBlock"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "RTCMediaConstraints"
+- "RTCPeerConnection"
+- "RTCSessionDescription"
+- "RTCSessionDescriptionDelegate"
+- "Result"
+- "SdpDispatcher"
+- "SdpDispatcherError"
+- "SetSdpCompletionBlock"
+- !private "StringLiteralType"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["s7CVarArgP", "SdpDispatcherError"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "connection"]
+- !private ["s7CVarArgP", "createAnswer"]
+- !private ["s7CVarArgP", "createOffer"]
+- !private ["s7CVarArgP", "createSdpCompletionBlock"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "peerConnection"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setLocalDescriptionWith"]
+- !private ["s7CVarArgP", "setRemoteDescriptionWith"]
+- !private ["s7CVarArgP", "setSdpCompletionBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "SdpDispatcherError"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "connection"]
+- !private ["s28CustomDebugStringConvertibleP", "createAnswer"]
+- !private ["s28CustomDebugStringConvertibleP", "createOffer"]
+- !private ["s28CustomDebugStringConvertibleP", "createSdpCompletionBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "peerConnection"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "setLocalDescriptionWith"]
+- !private ["s28CustomDebugStringConvertibleP", "setRemoteDescriptionWith"]
+- !private ["s28CustomDebugStringConvertibleP", "setSdpCompletionBlock"]
+- !private ["s23CustomStringConvertibleP", "SdpDispatcherError"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "connection"]
+- !private ["s23CustomStringConvertibleP", "createAnswer"]
+- !private ["s23CustomStringConvertibleP", "createOffer"]
+- !private ["s23CustomStringConvertibleP", "createSdpCompletionBlock"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "peerConnection"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "setLocalDescriptionWith"]
+- !private ["s23CustomStringConvertibleP", "setRemoteDescriptionWith"]
+- !private ["s23CustomStringConvertibleP", "setSdpCompletionBlock"]
+- ["SQ", "=="]
+- !private ["SQ", "SdpDispatcherError"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "connection"]
+- !private ["SQ", "createAnswer"]
+- !private ["SQ", "createOffer"]
+- !private ["SQ", "createSdpCompletionBlock"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "invalidParameter"]
+- ["SQ", "peerConnection"]
+- !private ["SQ", "print"]
+- !private ["SQ", "setLocalDescriptionWith"]
+- !private ["SQ", "setRemoteDescriptionWith"]
+- !private ["SQ", "setSdpCompletionBlock"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "invalidParameter"]
+- ["SH", "=="]
+- !private ["SH", "SdpDispatcherError"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "connection"]
+- !private ["SH", "createAnswer"]
+- !private ["SH", "createOffer"]
+- !private ["SH", "createSdpCompletionBlock"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "invalidParameter"]
+- ["SH", "peerConnection"]
+- !private ["SH", "print"]
+- !private ["SH", "setLocalDescriptionWith"]
+- !private ["SH", "setRemoteDescriptionWith"]
+- !private ["SH", "setSdpCompletionBlock"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSObjectC", "CreateSdpCompletionBlock"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "RTCMediaConstraints"]
+- ["So8NSObjectC", "RTCPeerConnection"]
+- ["So8NSObjectC", "RTCSessionDescription"]
+- !private ["So8NSObjectC", "SdpDispatcherError"]
+- ["So8NSObjectC", "SetSdpCompletionBlock"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "connection"]
+- ["So8NSObjectC", "createAnswer"]
+- ["So8NSObjectC", "createOffer"]
+- ["So8NSObjectC", "createSdpCompletionBlock"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "peerConnection"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "setLocalDescription"]
+- !private ["So8NSObjectC", "setLocalDescriptionWith"]
+- ["So8NSObjectC", "setRemoteDescription"]
+- !private ["So8NSObjectC", "setRemoteDescriptionWith"]
+- ["So8NSObjectC", "setSdpCompletionBlock"]
+- !private ["So8NSObjectP", "SdpDispatcherError"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "connection"]
+- !private ["So8NSObjectP", "createAnswer"]
+- !private ["So8NSObjectP", "createOffer"]
+- !private ["So8NSObjectP", "createSdpCompletionBlock"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "peerConnection"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "setLocalDescriptionWith"]
+- !private ["So8NSObjectP", "setRemoteDescriptionWith"]
+- !private ["So8NSObjectP", "setSdpCompletionBlock"]
+- !private ["So17RTCPeerConnectionC", "createAnswer"]
+- !private ["So17RTCPeerConnectionC", "createOffer"]
+- !private ["So17RTCPeerConnectionC", "setLocalDescriptionWith"]
+- !private ["So17RTCPeerConnectionC", "setRemoteDescriptionWith"]
+- !private ["So29RTCSessionDescriptionDelegateP", "SdpDispatcherError"]
+- ["So29RTCSessionDescriptionDelegateP", ""]
+- !private ["So29RTCSessionDescriptionDelegateP", "connection"]
+- !private ["So29RTCSessionDescriptionDelegateP", "createSdpCompletionBlock"]
+- ["So29RTCSessionDescriptionDelegateP", "peerConnection"]
+- !private ["So29RTCSessionDescriptionDelegateP", "print"]
+- !private ["So29RTCSessionDescriptionDelegateP", "setSdpCompletionBlock"]
+- !private ["8NFClient6ResultO", "failure"]
+- !private ["8NFClient6ResultO", "success"]
+- ["8NFClient13SdpDispatcherC", "CreateSdpCompletionBlock"]
+- ["8NFClient13SdpDispatcherC", "Error"]
+- ["8NFClient13SdpDispatcherC", "RTCMediaConstraints"]
+- ["8NFClient13SdpDispatcherC", "RTCPeerConnection"]
+- ["8NFClient13SdpDispatcherC", "RTCSessionDescription"]
+- !private ["8NFClient13SdpDispatcherC", "SdpDispatcherError"]
+- ["8NFClient13SdpDispatcherC", "SetSdpCompletionBlock"]
+- ["8NFClient13SdpDispatcherC", "connection"]
+- ["8NFClient13SdpDispatcherC", "createAnswer"]
+- ["8NFClient13SdpDispatcherC", "createOffer"]
+- ["8NFClient13SdpDispatcherC", "createSdpCompletionBlock"]
+- ["8NFClient13SdpDispatcherC", "deinit"]
+- ["8NFClient13SdpDispatcherC", "init"]
+- ["8NFClient13SdpDispatcherC", "peerConnection"]
+- !private ["8NFClient13SdpDispatcherC", "print"]
+- ["8NFClient13SdpDispatcherC", "setLocalDescription"]
+- ["8NFClient13SdpDispatcherC", "setRemoteDescription"]
+- ["8NFClient13SdpDispatcherC", "setSdpCompletionBlock"]
+- ["8NFClient18SdpDispatcherErrorO", "=="]
+- ["8NFClient18SdpDispatcherErrorO", "__derived_enum_equals"]
+- ["8NFClient18SdpDispatcherErrorO", "_code"]
+- ["8NFClient18SdpDispatcherErrorO", "_domain"]
+- ["8NFClient18SdpDispatcherErrorO", "_getEmbeddedNSError"]
+- ["8NFClient18SdpDispatcherErrorO", "_rawHashValue"]
+- ["8NFClient18SdpDispatcherErrorO", "_userInfo"]
+- ["8NFClient18SdpDispatcherErrorO", "deinit"]
+- ["8NFClient18SdpDispatcherErrorO", "hash"]
+- ["8NFClient18SdpDispatcherErrorO", "hashValue"]
+- ["8NFClient18SdpDispatcherErrorO", "invalidParameter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SdpDispatcherError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createAnswer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createOffer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createSdpCompletionBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peerConnection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setLocalDescriptionWith"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setRemoteDescriptionWith"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSdpCompletionBlock"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s5ErrorP"
+- "SH"
+- !private "s6HasherV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So17RTCPeerConnectionC"
+- "So29RTCSessionDescriptionDelegateP"
+- !private "8NFClient6ResultO"
+- "8NFClient13SdpDispatcherC"
+- "8NFClient18SdpDispatcherErrorO"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ModelIO.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/GLKit.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/i386.swiftmodule"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SocketRocket-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionInterface.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAudioSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCI420Frame.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCICECandidate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCSessionDescriptionDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCStatsDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaStreamTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAudioTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCDataChannel.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaStream.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnection.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCSessionDescription.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoRenderer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCOpenGLVideoRenderer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoCapturer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCICEServer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPair.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCTypes.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaConstraints.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SocketRocket.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SRWebSocket.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCStatsReport.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCEAGLVideoView.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionFactory.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c61e0b9ff968bf3cde6d88a309ecdae4"

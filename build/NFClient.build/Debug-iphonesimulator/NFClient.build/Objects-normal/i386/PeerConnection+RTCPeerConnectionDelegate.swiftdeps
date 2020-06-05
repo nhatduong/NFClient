@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "8NFClient14PeerConnectionC"
+provides-member:
+- ["8NFClient14PeerConnectionC", ""]
+provides-dynamic-lookup:
+- "peerConnection"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- "PeerConnection"
+- "RTCDataChannel"
+- "RTCICECandidate"
+- !private "RTCICEConnectionClosed"
+- !private "RTCICEConnectionCompleted"
+- !private "RTCICEConnectionDisconnected"
+- !private "RTCICEConnectionFailed"
+- "RTCICEConnectionState"
+- "RTCICEGatheringState"
+- "RTCMediaStream"
+- "RTCPeerConnection"
+- "RTCPeerConnectionDelegate"
+- !private "RTCSignalingStable"
+- "RTCSignalingState"
+- !private "String"
+- !private "StringLiteralType"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "RTCICEConnectionClosed"]
+- !private ["s7CVarArgP", "RTCICEConnectionCompleted"]
+- !private ["s7CVarArgP", "RTCICEConnectionDisconnected"]
+- !private ["s7CVarArgP", "RTCICEConnectionFailed"]
+- !private ["s7CVarArgP", "RTCSignalingStable"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "close"]
+- !private ["s7CVarArgP", "closeCompletionBlock"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "options"]
+- !private ["s7CVarArgP", "pc"]
+- ["s7CVarArgP", "peerConnection"]
+- ["s7CVarArgP", "peerConnectionOnRenegotiationNeeded"]
+- !private ["s7CVarArgP", "peerId"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "sdp"]
+- !private ["s7CVarArgP", "sdpMLineIndex"]
+- !private ["s7CVarArgP", "sdpMid"]
+- !private ["s7CVarArgP", "signalingState"]
+- !private ["8NFClient14PeerConnectionC0C4TypeO", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "RTCICEConnectionClosed"]
+- !private ["s28CustomDebugStringConvertibleP", "RTCICEConnectionCompleted"]
+- !private ["s28CustomDebugStringConvertibleP", "RTCICEConnectionDisconnected"]
+- !private ["s28CustomDebugStringConvertibleP", "RTCICEConnectionFailed"]
+- !private ["s28CustomDebugStringConvertibleP", "RTCSignalingStable"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "close"]
+- !private ["s28CustomDebugStringConvertibleP", "closeCompletionBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "options"]
+- !private ["s28CustomDebugStringConvertibleP", "pc"]
+- ["s28CustomDebugStringConvertibleP", "peerConnection"]
+- ["s28CustomDebugStringConvertibleP", "peerConnectionOnRenegotiationNeeded"]
+- !private ["s28CustomDebugStringConvertibleP", "peerId"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "sdp"]
+- !private ["s28CustomDebugStringConvertibleP", "sdpMLineIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "sdpMid"]
+- !private ["s28CustomDebugStringConvertibleP", "signalingState"]
+- !private ["s17CustomReflectableP", "sdp"]
+- !private ["s17CustomReflectableP", "sdpMLineIndex"]
+- !private ["s17CustomReflectableP", "sdpMid"]
+- !private ["s17CustomReflectableP", "signalingState"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "RTCICEConnectionClosed"]
+- !private ["s23CustomStringConvertibleP", "RTCICEConnectionCompleted"]
+- !private ["s23CustomStringConvertibleP", "RTCICEConnectionDisconnected"]
+- !private ["s23CustomStringConvertibleP", "RTCICEConnectionFailed"]
+- !private ["s23CustomStringConvertibleP", "RTCSignalingStable"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "close"]
+- !private ["s23CustomStringConvertibleP", "closeCompletionBlock"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "options"]
+- !private ["s23CustomStringConvertibleP", "pc"]
+- ["s23CustomStringConvertibleP", "peerConnection"]
+- ["s23CustomStringConvertibleP", "peerConnectionOnRenegotiationNeeded"]
+- !private ["s23CustomStringConvertibleP", "peerId"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "sdp"]
+- !private ["s23CustomStringConvertibleP", "sdpMLineIndex"]
+- !private ["s23CustomStringConvertibleP", "sdpMid"]
+- !private ["s23CustomStringConvertibleP", "signalingState"]
+- !private ["Se", "sdp"]
+- !private ["Se", "sdpMLineIndex"]
+- !private ["Se", "sdpMid"]
+- !private ["Se", "signalingState"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "sdp"]
+- !private ["SE", "sdpMLineIndex"]
+- !private ["SE", "sdpMid"]
+- !private ["SE", "signalingState"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "RTCICEConnectionClosed"]
+- !private ["SQ", "RTCICEConnectionCompleted"]
+- !private ["SQ", "RTCICEConnectionDisconnected"]
+- !private ["SQ", "RTCICEConnectionFailed"]
+- !private ["SQ", "RTCSignalingStable"]
+- !private ["SQ", "async"]
+- !private ["SQ", "close"]
+- !private ["SQ", "closeCompletionBlock"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "main"]
+- !private ["SQ", "options"]
+- !private ["SQ", "pc"]
+- ["SQ", "peerConnection"]
+- ["SQ", "peerConnectionOnRenegotiationNeeded"]
+- !private ["SQ", "peerId"]
+- !private ["SQ", "print"]
+- !private ["SQ", "sdp"]
+- !private ["SQ", "sdpMLineIndex"]
+- !private ["SQ", "sdpMid"]
+- !private ["SQ", "signalingState"]
+- !private ["SQ", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "sdp"]
+- !private ["s23ExpressibleByNilLiteralP", "sdpMLineIndex"]
+- !private ["s23ExpressibleByNilLiteralP", "sdpMid"]
+- !private ["s23ExpressibleByNilLiteralP", "signalingState"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "RTCICEConnectionClosed"]
+- !private ["SH", "RTCICEConnectionCompleted"]
+- !private ["SH", "RTCICEConnectionDisconnected"]
+- !private ["SH", "RTCICEConnectionFailed"]
+- !private ["SH", "RTCSignalingStable"]
+- !private ["SH", "async"]
+- !private ["SH", "close"]
+- !private ["SH", "closeCompletionBlock"]
+- !private ["SH", "delegate"]
+- !private ["SH", "main"]
+- !private ["SH", "options"]
+- !private ["SH", "pc"]
+- ["SH", "peerConnection"]
+- ["SH", "peerConnectionOnRenegotiationNeeded"]
+- !private ["SH", "peerId"]
+- !private ["SH", "print"]
+- !private ["SH", "sdp"]
+- !private ["SH", "sdpMLineIndex"]
+- !private ["SH", "sdpMid"]
+- !private ["SH", "signalingState"]
+- !private ["SH", "string"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "RTCDataChannel"]
+- ["So8NSObjectC", "RTCICECandidate"]
+- !private ["So8NSObjectC", "RTCICEConnectionClosed"]
+- !private ["So8NSObjectC", "RTCICEConnectionCompleted"]
+- !private ["So8NSObjectC", "RTCICEConnectionDisconnected"]
+- !private ["So8NSObjectC", "RTCICEConnectionFailed"]
+- ["So8NSObjectC", "RTCICEConnectionState"]
+- ["So8NSObjectC", "RTCICEGatheringState"]
+- ["So8NSObjectC", "RTCMediaStream"]
+- ["So8NSObjectC", "RTCPeerConnection"]
+- !private ["So8NSObjectC", "RTCSignalingStable"]
+- ["So8NSObjectC", "RTCSignalingState"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "close"]
+- !private ["So8NSObjectC", "closeCompletionBlock"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "options"]
+- !private ["So8NSObjectC", "pc"]
+- ["So8NSObjectC", "peerConnection"]
+- ["So8NSObjectC", "peerConnectionOnRenegotiationNeeded"]
+- !private ["So8NSObjectC", "peerId"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "sdp"]
+- !private ["So8NSObjectC", "sdpMLineIndex"]
+- !private ["So8NSObjectC", "sdpMid"]
+- !private ["So8NSObjectC", "signalingState"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "RTCICEConnectionClosed"]
+- !private ["So8NSObjectP", "RTCICEConnectionCompleted"]
+- !private ["So8NSObjectP", "RTCICEConnectionDisconnected"]
+- !private ["So8NSObjectP", "RTCICEConnectionFailed"]
+- !private ["So8NSObjectP", "RTCSignalingStable"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "close"]
+- !private ["So8NSObjectP", "closeCompletionBlock"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "options"]
+- !private ["So8NSObjectP", "pc"]
+- ["So8NSObjectP", "peerConnection"]
+- ["So8NSObjectP", "peerConnectionOnRenegotiationNeeded"]
+- !private ["So8NSObjectP", "peerId"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "sdp"]
+- !private ["So8NSObjectP", "sdpMLineIndex"]
+- !private ["So8NSObjectP", "sdpMid"]
+- !private ["So8NSObjectP", "signalingState"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "sdp"]
+- !private ["Sq", "sdpMLineIndex"]
+- !private ["Sq", "sdpMid"]
+- !private ["Sq", "signalingState"]
+- !private ["8NFClient14PeerConnectionC", "DispatchQueue"]
+- ["8NFClient14PeerConnectionC", "RTCDataChannel"]
+- ["8NFClient14PeerConnectionC", "RTCICECandidate"]
+- !private ["8NFClient14PeerConnectionC", "RTCICEConnectionClosed"]
+- !private ["8NFClient14PeerConnectionC", "RTCICEConnectionCompleted"]
+- !private ["8NFClient14PeerConnectionC", "RTCICEConnectionDisconnected"]
+- !private ["8NFClient14PeerConnectionC", "RTCICEConnectionFailed"]
+- ["8NFClient14PeerConnectionC", "RTCICEConnectionState"]
+- ["8NFClient14PeerConnectionC", "RTCICEGatheringState"]
+- ["8NFClient14PeerConnectionC", "RTCMediaStream"]
+- ["8NFClient14PeerConnectionC", "RTCPeerConnection"]
+- !private ["8NFClient14PeerConnectionC", "RTCSignalingStable"]
+- ["8NFClient14PeerConnectionC", "RTCSignalingState"]
+- !private ["8NFClient14PeerConnectionC", "String"]
+- !private ["8NFClient14PeerConnectionC", "close"]
+- !private ["8NFClient14PeerConnectionC", "closeCompletionBlock"]
+- ["8NFClient14PeerConnectionC", "deinit"]
+- !private ["8NFClient14PeerConnectionC", "delegate"]
+- !private ["8NFClient14PeerConnectionC", "options"]
+- !private ["8NFClient14PeerConnectionC", "pc"]
+- ["8NFClient14PeerConnectionC", "peerConnection"]
+- ["8NFClient14PeerConnectionC", "peerConnectionOnRenegotiationNeeded"]
+- !private ["8NFClient14PeerConnectionC", "peerId"]
+- !private ["8NFClient14PeerConnectionC", "print"]
+- !private ["8NFClient22PeerConnectionDelegateP", "connection"]
+- !private ["8NFClient21PeerConnectionOptionsC", "connectionId"]
+- !private ["8NFClient21PeerConnectionOptionsC", "connectionType"]
+- !private ["So15RTCICECandidateC", "sdp"]
+- !private ["So15RTCICECandidateC", "sdpMLineIndex"]
+- !private ["So15RTCICECandidateC", "sdpMid"]
+- !private ["So17RTCPeerConnectionC", "signalingState"]
+- !private ["So25RTCPeerConnectionDelegateP", "DispatchQueue"]
+- !private ["So25RTCPeerConnectionDelegateP", "RTCICEConnectionClosed"]
+- !private ["So25RTCPeerConnectionDelegateP", "RTCICEConnectionCompleted"]
+- !private ["So25RTCPeerConnectionDelegateP", "RTCICEConnectionDisconnected"]
+- !private ["So25RTCPeerConnectionDelegateP", "RTCICEConnectionFailed"]
+- !private ["So25RTCPeerConnectionDelegateP", "RTCSignalingStable"]
+- ["So25RTCPeerConnectionDelegateP", ""]
+- !private ["So25RTCPeerConnectionDelegateP", "close"]
+- !private ["So25RTCPeerConnectionDelegateP", "closeCompletionBlock"]
+- !private ["So25RTCPeerConnectionDelegateP", "delegate"]
+- !private ["So25RTCPeerConnectionDelegateP", "options"]
+- !private ["So25RTCPeerConnectionDelegateP", "pc"]
+- ["So25RTCPeerConnectionDelegateP", "peerConnection"]
+- ["So25RTCPeerConnectionDelegateP", "peerConnectionOnRenegotiationNeeded"]
+- !private ["So25RTCPeerConnectionDelegateP", "peerId"]
+- !private ["So25RTCPeerConnectionDelegateP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTCICEConnectionClosed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTCICEConnectionCompleted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTCICEConnectionDisconnected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTCICEConnectionFailed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTCSignalingStable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "close"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "closeCompletionBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "options"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pc"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peerConnection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peerConnectionOnRenegotiationNeeded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peerId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sdp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sdpMLineIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sdpMid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signalingState"]
+- !private ["s21_ObjectiveCBridgeableP", "sdp"]
+- !private ["s21_ObjectiveCBridgeableP", "sdpMLineIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "sdpMid"]
+- !private ["s21_ObjectiveCBridgeableP", "signalingState"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "8NFClient14PeerConnectionC0C4TypeO"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- "8NFClient14PeerConnectionC"
+- !private "8NFClient22PeerConnectionDelegateP"
+- !private "8NFClient21PeerConnectionOptionsC"
+- !private "So15RTCICECandidateC"
+- !private "So17RTCPeerConnectionC"
+- "So25RTCPeerConnectionDelegateP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ModelIO.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/GLKit.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/i386.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/i386.swiftmodule"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SocketRocket-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionInterface.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAVFoundationVideoSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAudioSource.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCI420Frame.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCICECandidate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCSessionDescriptionDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCStatsDelegate.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaStreamTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCAudioTrack.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCDataChannel.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaStream.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnection.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCSessionDescription.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoRenderer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCOpenGLVideoRenderer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCVideoCapturer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCICEServer.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPair.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCTypes.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCMediaConstraints.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SocketRocket.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Headers/SRWebSocket.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCStatsReport.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCEAGLVideoView.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/Headers/RTCPeerConnectionFactory.h"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Dependencies/libjingle_peerconnection/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketIO.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/Alamofire.framework/Modules/module.modulemap"
+- "/Users/nhatnguyen/Data/Code/IOS/NETFIN/Lian/Lian NFclient/SocketRocket.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9dcadaa3f9000dd87860db8934a8eb26"
