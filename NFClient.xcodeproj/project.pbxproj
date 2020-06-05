@@ -56,7 +56,7 @@
 		2AD75F121E52A8C600DEAFF8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F111E52A8C600DEAFF8 /* CFNetwork.framework */; };
 		2AD75F161E52A8E400DEAFF8 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F151E52A8E400DEAFF8 /* libicucore.tbd */; };
 		2AD75F181E52A8F200DEAFF8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD75F171E52A8F200DEAFF8 /* libc++.tbd */; };
-		CF58DC9D66C9F5FFA11FB653 /* Pods_NFClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC5CD54933B31CD428674D8 /* Pods_NFClient.framework */; };
+		D271962CE7F00497E26BB041 /* libPods-NFClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC999FB20E5AC5AE454ECD8D /* libPods-NFClient.a */; };
 		D803921423CF757D00238877 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D803921323CF757D00238877 /* AudioTrack.swift */; };
 		D805A6DB241A8F0F003CB541 /* btn-mute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = D805A6C3241A8F0E003CB541 /* btn-mute-m.png */; };
 		D805A6DC241A8F0F003CB541 /* btn-mute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = D805A6C3241A8F0E003CB541 /* btn-mute-m.png */; };
@@ -185,7 +185,6 @@
 		2AD75F171E52A8F200DEAFF8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		38E201DB20256B2CEA6F7520 /* Pods-NFClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFClient.release.xcconfig"; path = "Target Support Files/Pods-NFClient/Pods-NFClient.release.xcconfig"; sourceTree = "<group>"; };
 		802D2D807B49C61F76488EC7 /* Pods-PeerClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeerClient.debug.xcconfig"; path = "Target Support Files/Pods-PeerClient/Pods-PeerClient.debug.xcconfig"; sourceTree = "<group>"; };
-		8AC5CD54933B31CD428674D8 /* Pods_NFClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCA4C9AAF9B4A83207F6F58 /* Pods_PeerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D57EC00F2820DA7EBE1778 /* Pods-PeerClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeerClient.release.xcconfig"; path = "Target Support Files/Pods-PeerClient/Pods-PeerClient.release.xcconfig"; sourceTree = "<group>"; };
 		A9D541E1219F479D8204FCC5 /* Pods-NFClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFClient.debug.xcconfig"; path = "Target Support Files/Pods-NFClient/Pods-NFClient.debug.xcconfig"; sourceTree = "<group>"; };
@@ -226,6 +225,7 @@
 		D8FD861F2489300400105EB0 /* libjingle_peerconnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libjingle_peerconnection.framework; path = "../../../../../../Desktop/untitled folder 9/libjingle_peerconnection.framework"; sourceTree = "<group>"; };
 		D8FD86342489315100105EB0 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = "../../../../../../Desktop/untitled folder 9/SocketRocket.framework"; sourceTree = "<group>"; };
 		D8FD86392489321500105EB0 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = "../../../../../../Desktop/untitled folder 10/socketio/SocketIO.framework"; sourceTree = "<group>"; };
+		DC999FB20E5AC5AE454ECD8D /* libPods-NFClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +248,7 @@
 				D8788AE22487E35A0094FD20 /* Security.framework in Frameworks */,
 				D8FD86312489315100105EB0 /* SwiftyJSON.framework in Frameworks */,
 				D8FD863A2489321500105EB0 /* SocketIO.framework in Frameworks */,
-				CF58DC9D66C9F5FFA11FB653 /* Pods_NFClient.framework in Frameworks */,
+				D271962CE7F00497E26BB041 /* libPods-NFClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +365,7 @@
 				2AD75EFD1E52A85200DEAFF8 /* QuartzCore.framework */,
 				2AD75EFB1E52A84800DEAFF8 /* libsqlite3.tbd */,
 				8BCA4C9AAF9B4A83207F6F58 /* Pods_PeerClient.framework */,
-				8AC5CD54933B31CD428674D8 /* Pods_NFClient.framework */,
+				DC999FB20E5AC5AE454ECD8D /* libPods-NFClient.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
