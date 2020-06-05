@@ -111,13 +111,9 @@
 		D8CD25342464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */ = {isa = PBXBuildFile; fileRef = D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */; };
 		D8CFBB232481F8C800EAFF60 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFBB222481F8C800EAFF60 /* AES.swift */; };
 		D8FD862B2489315100105EB0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861B2489300400105EB0 /* Alamofire.framework */; };
-		D8FD862C2489315100105EB0 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861B2489300400105EB0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8FD862F2489315100105EB0 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861C2489300400105EB0 /* Starscream.framework */; };
-		D8FD86302489315100105EB0 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861C2489300400105EB0 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8FD86312489315100105EB0 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861D2489300400105EB0 /* SwiftyJSON.framework */; };
-		D8FD86322489315100105EB0 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861D2489300400105EB0 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8FD86352489315100105EB0 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD86342489315100105EB0 /* SocketRocket.framework */; };
-		D8FD86362489315100105EB0 /* SocketRocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD86342489315100105EB0 /* SocketRocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8FD863A2489321500105EB0 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD86392489321500105EB0 /* SocketIO.framework */; };
 		D8FD863B2489321500105EB0 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD86392489321500105EB0 /* SocketIO.framework */; };
 		EE550A59739CE290C1463237 /* libPods-NFClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1970358C1DA621252BC0AC78 /* libPods-NFClient.a */; };
@@ -140,10 +136,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D8FD86322489315100105EB0 /* SwiftyJSON.framework in Embed Frameworks */,
-				D8FD862C2489315100105EB0 /* Alamofire.framework in Embed Frameworks */,
-				D8FD86302489315100105EB0 /* Starscream.framework in Embed Frameworks */,
-				D8FD86362489315100105EB0 /* SocketRocket.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
