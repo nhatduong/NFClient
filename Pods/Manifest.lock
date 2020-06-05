@@ -3,7 +3,6 @@ PODS:
   - libjingle_peerconnection (11177.2.0)
   - Socket.IO-Client-Swift (15.2.0):
     - Starscream (~> 3.1)
-  - SocketRocket (0.5.1)
   - Starscream (3.1.1)
   - SwiftyJSON (5.0.0)
 
@@ -11,7 +10,6 @@ DEPENDENCIES:
   - Alamofire
   - libjingle_peerconnection
   - Socket.IO-Client-Swift
-  - SocketRocket
   - SwiftyJSON
 
 SPEC REPOS:
@@ -19,7 +17,6 @@ SPEC REPOS:
     - Alamofire
     - libjingle_peerconnection
     - Socket.IO-Client-Swift
-    - SocketRocket
     - Starscream
     - SwiftyJSON
 
@@ -27,10 +24,9 @@ SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   libjingle_peerconnection: 3458f646ddd61f08a9f3a0c43fb01fff5c165eb8
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
-  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: a7e94ca62e92042747b9c4af83fd445afa9ca85e
+PODFILE CHECKSUM: 74d6037f36a3d2c910d5674c03fa3077257f8341
 
 COCOAPODS: 1.8.4

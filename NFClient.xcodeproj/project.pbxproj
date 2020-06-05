@@ -111,12 +111,6 @@
 		D8CD25332464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */ = {isa = PBXBuildFile; fileRef = D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */; };
 		D8CD25342464FCF8000FBFA7 /* gs.videokyc.vn.der in Resources */ = {isa = PBXBuildFile; fileRef = D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */; };
 		D8CFBB232481F8C800EAFF60 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CFBB222481F8C800EAFF60 /* AES.swift */; };
-		D8FD862B2489315100105EB0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861B2489300400105EB0 /* Alamofire.framework */; };
-		D8FD862F2489315100105EB0 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861C2489300400105EB0 /* Starscream.framework */; };
-		D8FD86312489315100105EB0 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD861D2489300400105EB0 /* SwiftyJSON.framework */; };
-		D8FD86352489315100105EB0 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD86342489315100105EB0 /* SocketRocket.framework */; };
-		D8FD863A2489321500105EB0 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD86392489321500105EB0 /* SocketIO.framework */; };
-		D8FD863B2489321500105EB0 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FD86392489321500105EB0 /* SocketIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,12 +213,6 @@
 		D8A5255423CCD27800AE2463 /* libstdc++.6.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.tbd"; sourceTree = "<group>"; };
 		D8CD25322464FCF8000FBFA7 /* gs.videokyc.vn.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = gs.videokyc.vn.der; sourceTree = SOURCE_ROOT; };
 		D8CFBB222481F8C800EAFF60 /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
-		D8FD861B2489300400105EB0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../../../Desktop/untitled folder 9/Alamofire.framework"; sourceTree = "<group>"; };
-		D8FD861C2489300400105EB0 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = "../../../../../../Desktop/untitled folder 9/Starscream.framework"; sourceTree = "<group>"; };
-		D8FD861D2489300400105EB0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../Desktop/untitled folder 9/SwiftyJSON.framework"; sourceTree = "<group>"; };
-		D8FD861F2489300400105EB0 /* libjingle_peerconnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libjingle_peerconnection.framework; path = "../../../../../../Desktop/untitled folder 9/libjingle_peerconnection.framework"; sourceTree = "<group>"; };
-		D8FD86342489315100105EB0 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = "../../../../../../Desktop/untitled folder 9/SocketRocket.framework"; sourceTree = "<group>"; };
-		D8FD86392489321500105EB0 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = "../../../../../../Desktop/untitled folder 10/socketio/SocketIO.framework"; sourceTree = "<group>"; };
 		DC999FB20E5AC5AE454ECD8D /* libPods-NFClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -234,20 +222,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AD75F021E52A86700DEAFF8 /* CoreGraphics.framework in Frameworks */,
-				D8FD862F2489315100105EB0 /* Starscream.framework in Frameworks */,
 				2AD75F001E52A85D00DEAFF8 /* OpenGLES.framework in Frameworks */,
-				D8FD86352489315100105EB0 /* SocketRocket.framework in Frameworks */,
 				2AD75F101E52A8BB00DEAFF8 /* GLKit.framework in Frameworks */,
 				2AD75EFC1E52A84800DEAFF8 /* libsqlite3.tbd in Frameworks */,
 				2AD75F121E52A8C600DEAFF8 /* CFNetwork.framework in Frameworks */,
 				2AD75F161E52A8E400DEAFF8 /* libicucore.tbd in Frameworks */,
 				2AD75F181E52A8F200DEAFF8 /* libc++.tbd in Frameworks */,
-				D8FD862B2489315100105EB0 /* Alamofire.framework in Frameworks */,
 				D8788AE42487E3630094FD20 /* QuartzCore.framework in Frameworks */,
 				D8A5255523CCD27800AE2463 /* libstdc++.6.tbd in Frameworks */,
 				D8788AE22487E35A0094FD20 /* Security.framework in Frameworks */,
-				D8FD86312489315100105EB0 /* SwiftyJSON.framework in Frameworks */,
-				D8FD863A2489321500105EB0 /* SocketIO.framework in Frameworks */,
 				D271962CE7F00497E26BB041 /* libPods-NFClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +240,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AD75EC81E52A78D00DEAFF8 /* NFClient.framework in Frameworks */,
-				D8FD863B2489321500105EB0 /* SocketIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,12 +330,6 @@
 		2AD75EF81E52A83700DEAFF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D8FD86392489321500105EB0 /* SocketIO.framework */,
-				D8FD86342489315100105EB0 /* SocketRocket.framework */,
-				D8FD861B2489300400105EB0 /* Alamofire.framework */,
-				D8FD861F2489300400105EB0 /* libjingle_peerconnection.framework */,
-				D8FD861C2489300400105EB0 /* Starscream.framework */,
-				D8FD861D2489300400105EB0 /* SwiftyJSON.framework */,
 				2AD75F171E52A8F200DEAFF8 /* libc++.tbd */,
 				2AD75F151E52A8E400DEAFF8 /* libicucore.tbd */,
 				2AD75F131E52A8D000DEAFF8 /* Security.framework */,
